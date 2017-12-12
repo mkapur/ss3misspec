@@ -1,7 +1,7 @@
 `r require(dplyr)`
 This repository contains code to execute a misspecification simulation using a Stock Synthesis (SS3, Methot & Wetzel 2013) model of Striped Marlin. The entire procedure *after construction of the operating model* (see below) can be executed using the `master.R` script.
 
-# Steps to replicate study
+# Steps to replicate simulation procedure
 ## Generate Operating Model (OM)
 The user must have the following Striped Marlin  operating model files `forecast.SS`,`SM_Control.ss`,`ss3.par`,`SM_data.ss`,`starter.ss` and `ss3.exe` saved in a root directory. The user must first run the OM **without** the hessian matrix and ensuring that `init_src` in the `starter.ss` file is set to `0` so that the all parameters are estimated. From this point, the `master.R` script can be used exclusively.
 
