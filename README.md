@@ -1,5 +1,11 @@
-`r require(dplyr)`
-This repository contains code to execute a misspecification simulation using a Stock Synthesis (SS3, Methot & Wetzel 2013) model of Striped Marlin. The entire procedure *after construction of the operating model* (see below) can be executed using the `master.R` script.
+---
+title: "SS3 MisSpec README"
+author: "M Kapur maia.kapur@noaa.gov - Adapted from Jim Thorson"
+date: "Dec 2017"
+output: html_notebook
+---
+
+This repository contains code to execute a misspecification simulation using a Stock Synthesis (SS3, Methot & Wetzel 2013) model of Striped Marlin. The entire procedure *after construction of the operating model* (see below) can be executed using the `master.R` script. This was inspired by Jim Thorson's `SSbootstrap` code, and customized to design our own mis-specification and plotting internally.
 
 # Steps to replicate simulation procedure
 ## Generate Operating Model (OM)
